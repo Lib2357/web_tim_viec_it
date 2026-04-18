@@ -1,31 +1,31 @@
-﻿import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const sections = [
   {
     items: [
-      { key: 'home', icon: 'home', label: 'Trang chủ', to: '/' },
+      { key: 'home', icon: 'home', label: 'Trang chu', to: '/' },
       { key: 'dashboard', icon: 'dashboard', label: 'Dashboard', to: '/dashboard' },
-      { key: 'switch-role', icon: 'shield', label: 'Chuyển đổi vai trò', to: '#' },
+      { key: 'switch-role', icon: 'shield', label: 'Chuyen doi vai tro', to: '#' },
     ],
   },
   {
-    title: 'Quản lý Job',
+    title: 'Quan ly Job',
     items: [
-      { key: 'job-list', icon: 'work', label: 'Danh sách Job', to: '/job-list' },
-      { key: 'applied-jobs', icon: 'assignment_turned_in', label: 'Job đã ứng tuyển', to: '/jobs' },
-      { key: 'job-progress', icon: 'bar_chart', label: 'Tiến độ công việc', to: '#' },
-      { key: 'contracts', icon: 'description', label: 'Hợp đồng', to: '/contracts' },
+      { key: 'job-list', icon: 'work', label: 'Danh sach Job', to: '/job-list' },
+      { key: 'job-progress', icon: 'bar_chart', label: 'Tien do cong viec', to: '/job-progress' },
+      { key: 'applied-jobs', icon: 'assignment_turned_in', label: 'Viec da ung tuyen', to: '/jobs' },
+      { key: 'contracts', icon: 'description', label: 'Hop dong', to: '/contracts' },
     ],
   },
   {
-    title: 'Dịch vụ & Milestone',
-    items: [{ key: 'milestone', icon: 'target', label: 'Quản lý Milestone', to: '/milestones' }],
+    title: 'Dich vu & Milestone',
+    items: [{ key: 'milestone', icon: 'target', label: 'Quan ly Milestone', to: '/milestones' }],
   },
   {
-    title: 'Giao tiếp',
+    title: 'Giao tiep',
     items: [
-      { key: 'messages', icon: 'chat_bubble_outline', label: 'Tin nhắn', to: '#', badge: '3', badgeTone: 'rose' },
-      { key: 'notifications', icon: 'notifications_none', label: 'Thông báo', to: '#', badge: '5', badgeTone: 'sky' },
+      { key: 'messages', icon: 'chat_bubble_outline', label: 'Tin nhan', to: '/messages', badge: '3', badgeTone: 'rose' },
+      { key: 'notifications', icon: 'notifications_none', label: 'Thong bao', to: '/notifications', badge: '5', badgeTone: 'sky' },
     ],
   },
 ]
@@ -78,5 +78,3 @@ export default function DashboardSidebar({ activeKey }) {
     </aside>
   )
 }
-
-

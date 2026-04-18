@@ -90,5 +90,27 @@
       "role": "UI/UX Designer",
       "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuAGd5AQDHFAuStbs_p9BioRu2xCcRfDTYESf8ynMKGf3-BWZcWDWOTSs9JPs4RPeTjNYeg5b6dvpvBnT1z412FjNG0In59UcKkTnq3aMQLi1URG-wyItoS9ei4_WNl81gbGRzkxd03wzt48SxwWO4B9HJTSx-adh2MPfYzFU6G4bFvCPlg1-asTzxo2_WsjcBGWRO0J3df3zYEpcrpsbLTzVfoy6MfnJ8pXRXe1ImyTcHg_4x8T_EtKPepcvSqONWSyTw9w0sH2QRk"
     }
-  ]
+  ],
+  "footer": {
+    "brandDescription": "Nen tang ket noi hang dau giua khach hang va lap trinh vien tai Viet Nam.",
+    "columns": [
+      {
+        "title": "Nen tang",
+        "links": ["Gioi thieu", "Quy trinh", "Phi dich vu", "Blog cong nghe"]
+      },
+      {
+        "title": "Freelancer",
+        "links": ["Viec lam React", "Viec lam Python", "Viec lam Mobile", "Goi Member"]
+      },
+      {
+        "title": "Khach hang",
+        "links": ["Thue React Dev", "Thue Designer", "Dang du an", "Ho tro 24/7"]
+      },
+      {
+        "title": "Phap ly",
+        "links": ["Dieu khoan", "Bao mat", "Cookie"]
+      }
+    ],
+    "copyright": "© 2026 CHOCODE. Crafted for Vietnamese Developers."
+  }
 }
